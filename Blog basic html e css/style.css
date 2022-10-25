@@ -1,0 +1,159 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 1em;
+    font-family: Trebuchet 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ededed;
+  }
+  
+  a:link, a:visited{
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  
+  a:hover{
+    color: #5a5af2;
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /* GERAL */
+  
+  
+  
+  
+  
+  
+  /* CABECALHO */
+  #cabecalho{
+    background-color: #f7b;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1{
+    font-size: 3.5em;
+    color: #007bff;
+  }
+  
+  
+  #white{
+    color: white;
+  }
+  /* CABECALHO */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* MENU */
+  #menu, #logo{
+    padding: 10px;
+  }
+  
+  #cabecalho a:link, #cabecalho a:visited{
+    color: white;
+    padding: 8px 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  #cabecalho a:hover{
+    color: #f7b;
+    background: white;
+  }
+  /* MENU */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* CONTEUDO */
+  #conteudos{
+    width: 920px;
+    margin: auto;
+    position: relative;
+  }
+  
+  #postagens{
+    width: 660px;
+    float: left;
+    position: relative;
+    top: 20px;
+  }
+  
+  .esp_postagens{
+  padding: 10px;
+  margin-bottom: 10px;
+  }
+  
+  #lateral{
+    width: 240px;
+    float: right;
+    position: relative;
+      right: 70px;
+      top: 20px;
+    font-size: 0.8em;
+  }
+  
+  #postagens, #lateral{
+    background-color: #c7f1ff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #rodape{
+    position: relative;
+    top: 580px;
+    right: 550px;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h2{
+    color: black;
+  }
+  
+  #data_postagem{
+    font-size: 0.8em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  h3{
+    color: #007bff;
+  }
+  
+  .nav{
+    background: #d8e0e4;
+  }
+  
+  .post_lat{
+    padding: 5px;
+    margin-top: 3px;
+  }
+  /* CONTEUDO */
