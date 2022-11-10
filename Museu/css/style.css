@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgb(190, 190, 190));
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(255, 255, 255)) ;
+    color: rgb(255, 255, 255);
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li a{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+   background: white;
+   color: black;
+   padding: 5px;
+}
+
+article{
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/bg.jpg);
+}
+
+article > img{
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.imagens{
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 10px 20px black;
+    border-radius: 5px;
+}
+
+.texto_li{
+     color: white;
+     text-shadow: 10px 10px 5px black;
+     margin-top: 5px;
+     margin-left: 70px;
+     padding: 2px;
+     display: inline-block;
+}
+
+#texto_lateral{
+    width: 250px;
+    color: white;
+    font-style: italic;
+    margin-right: 50px;
+    list-style: none;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+#texto_lateral li p{
+    padding: 5px;
+}
+
+footer{
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(255, 255, 255)) ;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
