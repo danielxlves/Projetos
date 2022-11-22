@@ -1,0 +1,22 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.texto{
+	font-size: 1.2em;
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #cacaca;
+}
+
+footer{
+		padding: 10px;
+}
+
+footer p a{
+	margin-right: 10px;
+}
+

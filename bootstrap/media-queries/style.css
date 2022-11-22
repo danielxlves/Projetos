@@ -1,0 +1,97 @@
+/*Small devices (landscape phones)*/
+@media (min-width: 576px) {
+    body{
+        
+    }
+}
+
+/*Medium devices (tablets, 768px e superior)*/
+@media (min-width: 768px) {
+    body{
+        
+    }
+}
+
+/*Large devices (desktops, 992px e superior)*/
+@media (min-width: 992px) {
+    body{
+        
+    }
+}
+
+/*Extra large devices (large desktops, 1200px e superior)*/
+@media (min-width: 1200px) {
+    body{
+       
+    }
+}
+
+
+
+/**************************/
+/* Extra small devices (portraint phones) */
+@media (max-width: 575px) {
+    body{
+       
+    }
+}
+
+/* Small devices (Landscape Phones) */
+@media (max-width: 767) {
+    body{
+
+    }
+}
+
+/* Medium devices (Tablets) */
+@media (max-width: 991px) {
+    body{
+
+    }
+}
+
+/* Large devices (Desktops) */
+@media (max-width: 1119px) {
+    body{
+
+    }
+}
+
+
+
+/******************************************/
+/*Extra small devices (portrait phones, menor que 576px)*/
+@media (max-width: 575px) {
+    body{
+        background: burlywood;
+}
+}
+
+/*Small devices (landscape phones, 576px e maiores)*/
+@media (min-width: 576px) and (max-width: 767.68) {
+    body{
+        background: pink;
+    }
+}
+
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        background: green;
+}
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 992px) and (max-width: 1119px) {
+    body{
+        background: gray;
+}
+}
+
+/*Extra large devices (large desktops, 1200px  e maiores)*/
+@media (min-width: 1201px) {
+    body{
+        background: black;
+}
+    }
+    
