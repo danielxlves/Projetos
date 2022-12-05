@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="entrada" type="text" onfocus="foco('yellow')" onblur="semFoco('red','green')">
+
+    <script>
+        function foco(cor){
+            document.getElementById('entrada').style.background = cor;
+        }
+
+        function semFoco(cor, cor2){
+            let valorInput = document.getElementById('entrada').value
+
+           valorInput = valorInput.length
+            
+            if(valorInput < 3){
+                document.getElementById('entrada').style.background = cor;
+            }else if(valorInput >= 3){
+                document.getElementById('entrada').style.background = cor2;
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+<!--Quando o campo perder o foco, recupere o seu respectivo valor e:
+
+o Caso o conteúdo contido no campo tenha menos de 3 caracteres o mesmo
+deve ter seu background alterado para vermelho.
+
+o Caso o conteúdo contido no campo tenha 3 caracteres ou mais o background
+deve ser alterado para verde.-->

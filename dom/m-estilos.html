@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>manipulando estilos</h3>
+   
+    <button onclick="mudarCor('red','300px','300px')">vermelho</button>
+    <button onclick="mudarCor('green','300px','300px')" >verde</button>
+    <button onclick="mudarCor('blue','300px','300px')" >azul</button>
+
+    <hr>
+    <div id="A" style="width:150px; height: 150px; background-color: gray;"></div>
+ 
+    <script>
+        function mudarCor(cor,l,a){
+            document.getElementById('A').style.background = cor;
+            document.getElementById('A').style.width = l;
+            document.getElementById('A').style.height = a;
+        }
+    </script>
+</body>
+</html>
